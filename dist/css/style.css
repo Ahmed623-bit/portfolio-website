@@ -348,15 +348,35 @@ main#home h1 {
   }
 }
 @media screen and (max-width: 500px) {
+  main {
+    padding: 2rem;
+  }
   main#home h1 {
     margin-top: 10vh;
-    font-size: 18px;
+    font-size: 50px;
   }
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
   main#work h1.lg-heading {
     font-size: 60px;
+    margin-top: 4.5rem;
+  }
+  main#about h1.lg-heading,
+  main#contact h1.lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 55px;
+    font-size: 65px;
+  }
+  main#contact div.boxes div {
+    font-size: 2rem;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+    padding: 1.5rem 2.5rem;
+    transition: all 0.5s ease-out;
+    font-size: 20px;
+    width: 100%;
   }
 }
 
