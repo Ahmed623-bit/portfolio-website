@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #66d6d4;
+  background: #f2f2f2;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #7adbda;
+  background: #ffffff;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -120,7 +120,7 @@
 }
 
 body {
-  background: #7adbda;
+  background: #ffffff;
   color: #000;
   height: 100%;
   margin: 0;
@@ -140,7 +140,7 @@ body#bg-img::after {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: rgba(122, 219, 218, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 h1,
@@ -159,7 +159,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(130, 221, 220, 0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 a {
@@ -226,7 +226,7 @@ main#home h1 {
 .about-info .job {
   border-bottom: #eece1a 5px solid;
   padding: 0.5rem;
-  background-color: #8ee0e0;
+  background-color: white;
 }
 
 .projects {
@@ -279,7 +279,7 @@ main#home h1 {
 }
 
 .btn-dark {
-  background-color: #124443;
+  background-color: gray;
   color: #fff;
 }
 
@@ -289,7 +289,7 @@ main#home h1 {
 }
 
 #main-footer {
-  background-color: #52d0cf;
+  background-color: #e6e6e6;
   text-align: center;
   padding: 1rem;
   color: #000;
