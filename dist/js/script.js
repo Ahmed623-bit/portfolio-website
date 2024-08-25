@@ -31,3 +31,5 @@ const toggleMenu = () => {
 }
 
 menuBtn.addEventListener('click', toggleMenu)
+
+
