@@ -1,0 +1,64 @@
+.btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    &:hover {
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+    }
+  }
+
+// Theme Styles
+body.light-mode {
+    background-color: $light-bg;
+    color: $light-text;
+    .btn-light {
+        @extend .btn;
+        background-color: $dark-bg;
+        color: $dark-text;
+      }
+
+      .btn-dark {
+        @extend .btn;
+     
+        background-color: $dark-bg;
+        color: $dark-text;
+      }
+}
+
+body.dark-mode {
+    background-color: $dark-bg;
+    color: $dark-text;
+    .btn-light {
+        @extend .btn;
+        background-color: $light-bg;
+        color: $light-text;
+      }
+
+      .btn-dark {
+        @extend .btn;
+        background-color: $light-bg;
+        color: $light-text;
+      }
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+// Device Theme
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $dark-bg;
+        color: $dark-text;
+    }
+}
