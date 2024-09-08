@@ -10,7 +10,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #fff;
+  background: #000;
   transition: all 0.5s ease-out;
 }
 .menu-btn.close {
@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #7c0000;
+  background: #868686;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #950000;
+  background: #939393;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -90,7 +90,7 @@
   font-size: 30px;
   text-transform: uppercase;
   padding: 1rem 0;
-  color: #fff;
+  color: #000;
   font-weight: 300;
   text-decoration: nones;
   transition: all 0.5s ease-out;
@@ -120,8 +120,8 @@
 }
 
 body {
-  background: #950000;
-  color: #fff;
+  background: #939393;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: serif;
@@ -144,7 +144,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(159, 0, 0, 0.5);
+  background: rgba(152, 152, 152, 0.5);
 }
 
 a {
@@ -211,7 +211,7 @@ main#home h1 {
 .about-info .job {
   border-bottom: #eece1a 5px solid;
   padding: 0.5rem;
-  background-color: #af0000;
+  background-color: #a0a0a0;
 }
 
 .projects {
@@ -264,20 +264,20 @@ main#home h1 {
 }
 
 .btn-dark {
-  background-color: black;
+  background-color: #141414;
   color: #fff;
 }
 
 .btn-light {
-  background-color: #ff9595;
+  background-color: white;
   color: #000;
 }
 
 #main-footer {
-  background-color: #620000;
+  background-color: #7a7a7a;
   text-align: center;
   padding: 1rem;
-  color: #fff;
+  color: #000;
   height: 60px;
 }
 
